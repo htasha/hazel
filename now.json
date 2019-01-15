@@ -4,7 +4,7 @@
     "public": false,
     "alias": ["admirable.now.sh"],
     "env": {
-        "ACCOUNT": "htasha",
-        "REPOSITORY": "admirable"
+        "ACCOUNT": "@account",
+        "REPOSITORY": "@repository"
     }
 }
