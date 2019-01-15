@@ -2,11 +2,5 @@
     "name": "admirable",
     "version": 1,
     "public": false,
-    "alias": "admirable.now.sh",
-    "build": {
-        "env": {
-            "account": "htasha",
-            "repository": "admirable"
-        }
-    }
+    "alias": ["admirable.now.sh"]
 }
