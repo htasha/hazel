@@ -1,6 +1,6 @@
 {
     "name": "admirable",
-    "version": 1,
+    "version": 2,
     "public": false,
     "alias": ["admirable.now.sh"],
     "env": {
