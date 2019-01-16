@@ -135,7 +135,7 @@
       <div id="list">
         {{#each files}}
         <div class="item">
-          <div class="fileType">Descargar: <span class="url"><a href={{this.url}}>/latest/{{@key}}</a></span></div>
+          <div class="fileType">Descargar: <span class="url"><a href={{this.url}}>/último/{{@key}}</a></span></div>
           <div class="size">{{this.size}} MB</div>
         </div>
         {{/each}}
@@ -143,9 +143,8 @@
 
       <footer>
         <div id="version">{{version}}</div>
-        <a id="release-notes" href={{releaseNotes}}>Release Notes</a>
-        <a id="all-releases" href={{allReleases}}>All Releases</a>
-        <a href={{github}}>GitHub</a>
+        <a id="release-notes" href={{releaseNotes}}>Notas de lanzamiento</a>
+        <a id="all-releases" href={{allReleases}}>Todos los lanzamientos</a>
       </footer>
     </main>
   </div>
